@@ -1,0 +1,26 @@
+- What I did?
+Ibuild a simulated railroad crossing model: I will create  a mini train which people can control them to move
+across the railroad and crossway. Using traffic light create different situation. 
+
+- How I did it?
+Laser cut the train and a stand box with rail road score on it. Using one arduino connecting with one continue rotation motor 
+and 4 traffic lights(include 4 red LED, 4 yellow LED & 4 green LED). So when the motor rotate, it will slowly draging the rope
+which connect the train. When the train passing by the light sensor, the light will change from green to yellow to red. When the 
+train passing across the road, the light will turn back on green.
+
+- What I learned along the way.
+1.
+
+- What I would do differently.
+1.Motor selection, I will change a continue rotation servo motor so when the train approach the end it will automatic goes back. 
+2.Try to find out how to use two light sensor at the same time, so when the train cover the second light sensor then the light 
+sensor will change the light from red to green.
+
+- A description of the 5 most difficult problems you had and how you overcamethem 
+1. I don't know how to set two light sensor to change the light.  What I did right now is culate the time how long the train will take 
+to pass the road, what I got is 23 second, so I set the red light delay 23 second when the train cover the first light sensor.
+2. Mechanism always broken during the testing. Do more testing and fix everything.
+3. I shouldn't put the arduino under the box, it was so hard to plug in all the wires.
+4. I have so many LEDs, there are lots of problems when I connect the wires. All the wires should have some order, and use color to 
+differentiate them, so if there's anything wrong, I can easily find the problem.
+5. I forgot leave holes for wires. But in the end I try to pull the wire out from the gap of the train rail.
