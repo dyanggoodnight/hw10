@@ -9,7 +9,9 @@ which connect the train. When the train passing by the light sensor, the light w
 train passing across the road, the light will turn back on green.
 
 - What I learned along the way.
-1.
+1.Testing is very important.
+2.Always ask questions.
+3.Check all the supplies before due date.
 
 - What I would do differently.
 1.Motor selection, I will change a continue rotation servo motor so when the train approach the end it will automatic goes back. 
